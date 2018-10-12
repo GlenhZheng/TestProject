@@ -12,7 +12,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
         val x:Int = 10
         val y:Long = x.toLong()
-        button.text="this is the test here."
+        button.text="this is the test here. the test is to update to the server now"
         button.setOnClickListener {
             textView.text="I changed the clothes  " + y
         }
