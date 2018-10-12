@@ -16,6 +16,7 @@ class MainActivity : AppCompatActivity() {
         button.setOnClickListener {
             textView.text="I changed the clothes  " + y
         }
+        /*this is the tag to update**/
 
     }
 
